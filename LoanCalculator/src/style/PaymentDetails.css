@@ -1,0 +1,20 @@
+.paymentDetails{
+  margin: 5px;
+  background-color: #6da338;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.paymentDetails p{
+  margin: 5px;
+  color: white;
+  grid-column: 1;
+  padding: 3px;
+}
+
+.paymentDetails span{
+  margin: 5px;
+  color: black;
+  grid-column: 2;
+  padding: 3px;
+}

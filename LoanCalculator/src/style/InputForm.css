@@ -1,0 +1,30 @@
+.InputForm{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.InputForm .leftLables{
+  grid-column: 1;
+  margin: 3px;
+}
+
+.InputForm .leftLables span{
+  margin: 6px;
+  display: inline-block;
+}
+
+ .InputForm .rightInputs{
+   grid-column: 2;
+   margin: 3px;
+ }
+
+ .InputForm .rightInputs input{
+   margin: 5.5px;
+   display: inline-block;
+ }
+
+ .InputForm button{
+   grid-column: 2;
+   margin-left: 10px;
+   width: 85px;
+ }

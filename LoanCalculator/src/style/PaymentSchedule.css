@@ -1,0 +1,30 @@
+.Schedule h3{
+  color: black;
+  text-align: center;
+}
+
+.PaymentSchedule thead{
+  background-color: #eda509;
+}
+
+.PaymentSchedule thead th:first-child{
+  border-top-left-radius:10px;
+}
+
+.PaymentSchedule thead th:last-child{
+  border-top-right-radius:10px;
+}
+
+.PaymentSchedule thead th{
+  padding: 10px 15px;
+}
+
+.PaymentSchedule tbody tr:hover{
+  background-color: #f5da89;
+}
+
+.PaymentSchedule tbody td{
+  text-align: center;
+  border-top: 1px solid #e8edff;
+  padding: 10px 15px;
+}

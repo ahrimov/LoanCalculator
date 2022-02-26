@@ -1,0 +1,9 @@
+.mainCalculator{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainCalculator h1{
+  color: #3cb4cf;
+}
